@@ -1,0 +1,7 @@
+[theme]
+primaryColor = "#00CED1"           # Bright cyan
+backgroundColor = "#121212"        # Deep black
+secondaryBackgroundColor = "#1E1E1E"  # Slightly lighter black
+textColor = "#E0E0E0"              # Soft white text
+font = "serif"
+
