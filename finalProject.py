@@ -18,7 +18,7 @@ import folium
 import seaborn as sns
 
 #Read in dataset
-df_nuclear = pd.read_csv("C:\\Users\\eacou\\OneDrive - Bentley University\\CS 230\\Final Project\\nuclear_explosions.csv")
+df_nuclear = pd.read_csv("nuclear_explosions.csv")
 #python -m streamlit run "C:\Users\eacou\OneDrive - Bentley University\CS 230\Final Project\finalProject.py"
 
 #----------------------------------Clean dataset-------------------------------------------
