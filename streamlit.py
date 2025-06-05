@@ -3,7 +3,6 @@
 #Data: Nuclear Explosions
 #URL: https://nuclear-data-murvjqljvhfxu4srwebz5g.streamlit.app/
 #Description: This code aims to provide a user-friendly website where its visitors can learn about various aspects of historical nuclear explosions.
-from filecmp import clear_cache
 
 #Imports
 import pandas as pd
@@ -18,7 +17,7 @@ import folium
 import seaborn as sns
 
 #Read in dataset
-df_nuclear = pd.read_csv("nuclear_explosions.csv")
+df_nuclear = pd.read_csv("C:\\Users\\eacou\\OneDrive - Bentley University\\CS 230\\Final Project\\nuclear_explosions.csv")
 #python -m streamlit run "C:\Users\eacou\OneDrive - Bentley University\CS 230\Final Project\finalProject.py"
 
 #----------------------------------Clean dataset-------------------------------------------
